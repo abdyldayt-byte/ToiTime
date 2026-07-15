@@ -3,8 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>ТойTime 01 — Незнакомые люди | 25.07.2026, Бишкек</title>
-<meta name="description" content="ТойTime 01 «Незнакомые люди» — новый формат праздника в Кыргызстане. 25 июля 2026, Bermet Palace, Бишкек.">
+<title>ТОЙ TIME — Event Agency | «Незнакомые люди», 25.07.2026, Бишкек</title>
+<meta name="description" content="ТОЙ TIME — Event Agency. «Незнакомые люди», выпуск 01 — новый формат праздника в Кыргызстане. 25 июля 2026, Bermet Palace, Бишкек.">
+<meta name="theme-color" content="#241209">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,13 +17,13 @@
     theme: {
       extend: {
         colors: {
-          ink: '#0A0A0A',
-          coal: '#141414',
-          panel: '#1B1710',
-          gold: '#D4AF37',
-          goldLight: '#F1D68C',
-          goldDeep: '#9C7A22',
-          cream: '#F5EFE3',
+          ink: '#241209',
+          coal: '#3A2314',
+          panel: '#2E1B10',
+          gold: '#C4906A',
+          goldLight: '#E8C4A0',
+          goldDeep: '#8B5A3C',
+          cream: '#F3E6D8',
         },
         fontFamily: {
           serif: ['"Playfair Display"', 'serif'],
@@ -37,59 +38,59 @@
 <style>
   html { scroll-behavior: smooth; overflow-x: hidden; }
   body {
-    background-color: #0A0A0A;
+    background-color: #241209;
     font-family: 'Montserrat', sans-serif;
-    color: #F5EFE3;
+    color: #F3E6D8;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
     max-width: 100vw;
   }
 
   .noise-bg {
-    background-color: #0A0A0A;
+    background-color: #241209;
     background-image:
-      radial-gradient(circle at 15% 20%, rgba(212,175,55,0.07) 0%, transparent 45%),
-      radial-gradient(circle at 85% 80%, rgba(212,175,55,0.06) 0%, transparent 45%);
+      radial-gradient(circle at 15% 20%, rgba(196,144,106,0.07) 0%, transparent 45%),
+      radial-gradient(circle at 85% 80%, rgba(196,144,106,0.06) 0%, transparent 45%);
   }
   .panel-bg {
-    background-color: #141414;
+    background-color: #3A2314;
     background-image:
-      radial-gradient(circle at 20% 10%, rgba(212,175,55,0.09) 0%, transparent 50%),
-      radial-gradient(circle at 90% 90%, rgba(212,175,55,0.05) 0%, transparent 50%);
+      radial-gradient(circle at 20% 10%, rgba(196,144,106,0.09) 0%, transparent 50%),
+      radial-gradient(circle at 90% 90%, rgba(196,144,106,0.05) 0%, transparent 50%);
   }
 
   .gold-text {
-    background: linear-gradient(135deg, #F1D68C 0%, #D4AF37 45%, #9C7A22 100%);
+    background: linear-gradient(135deg, #E8C4A0 0%, #C4906A 45%, #8B5A3C 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
 
-  .gold-border { border: 1px solid rgba(212,175,55,0.35); }
-  .gold-border-strong { border: 1px solid rgba(212,175,55,0.6); }
+  .gold-border { border: 1px solid rgba(196,144,106,0.35); }
+  .gold-border-strong { border: 1px solid rgba(196,144,106,0.6); }
 
   .card {
-    background: linear-gradient(160deg, rgba(212,175,55,0.08), rgba(255,255,255,0.015));
-    border: 1px solid rgba(212,175,55,0.25);
+    background: linear-gradient(160deg, rgba(196,144,106,0.08), rgba(255,255,255,0.015));
+    border: 1px solid rgba(196,144,106,0.25);
   }
 
-  .divider-line { height: 1px; width: 64px; background: linear-gradient(90deg, transparent, #D4AF37, transparent); }
+  .divider-line { height: 1px; width: 64px; background: linear-gradient(90deg, transparent, #C4906A, transparent); }
   .letter-spacing-wide { letter-spacing: 0.28em; }
 
   .btn-gold {
-    background: linear-gradient(135deg, #F1D68C, #D4AF37 55%, #B8912C);
-    color: #14110A;
+    background: linear-gradient(135deg, #E8C4A0, #C4906A 55%, #A06B45);
+    color: #1E120A;
     transition: transform 0.25s ease, box-shadow 0.35s ease;
   }
-  .btn-gold:hover { transform: translateY(-2px); box-shadow: 0 14px 30px -8px rgba(212,175,55,0.55); }
+  .btn-gold:hover { transform: translateY(-2px); box-shadow: 0 14px 30px -8px rgba(196,144,106,0.55); }
 
   .btn-outline-gold {
     background: transparent;
-    color: #F1D68C;
-    border: 1px solid rgba(212,175,55,0.6);
+    color: #E8C4A0;
+    border: 1px solid rgba(196,144,106,0.6);
     transition: background-color 0.3s ease, transform 0.25s ease;
   }
-  .btn-outline-gold:hover { background-color: rgba(212,175,55,0.1); transform: translateY(-2px); }
+  .btn-outline-gold:hover { background-color: rgba(196,144,106,0.1); transform: translateY(-2px); }
 
   .reveal {
     opacity: 0;
@@ -139,13 +140,13 @@
     100% { background-position: 200% center; }
   }
   .shimmer-text {
-    background: linear-gradient(90deg, #9C7A22 0%, #F1D68C 25%, #D4AF37 50%, #F1D68C 75%, #9C7A22 100%);
+    background: linear-gradient(90deg, #8B5A3C 0%, #E8C4A0 25%, #C4906A 50%, #E8C4A0 75%, #8B5A3C 100%);
     background-size: 200% auto;
     -webkit-background-clip: text; background-clip: text; color: transparent;
     animation: shimmer 5s linear infinite;
   }
 
-  .crown-icon svg { filter: drop-shadow(0 0 6px rgba(212,175,55,0.4)); }
+  .crown-icon svg { filter: drop-shadow(0 0 6px rgba(196,144,106,0.4)); }
 
   .rsvp-btn { transition: background-color .3s ease, transform .25s ease, box-shadow .3s ease; }
 
@@ -158,6 +159,22 @@
 </head>
 <body class="noise-bg overflow-x-hidden intro-active">
 
+<!-- Shared logo mark: twin arches + sunrise, recreated from the ТОЙ TIME brand mark -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="toitime-mark" viewBox="0 0 120 100">
+    <path d="M28 90 V50 a20 20 0 0 1 40 0 V90"/>
+    <path d="M52 90 V42 a20 20 0 0 1 40 0 V90"/>
+    <g stroke-linecap="round">
+      <path d="M30 70 H13"/>
+      <path d="M31.5 62.5 L16.5 56"/>
+      <path d="M35.5 56 L23 45.5"/>
+      <path d="M41 51 L32 38.5"/>
+    </g>
+    <path d="M48 54 v11 M42.5 59.5 h11" stroke-linecap="round"/>
+    <path d="M59 47 v11 M53.5 52.5 h11" stroke-linecap="round"/>
+  </symbol>
+</svg>
+
 <!-- ============ INTERACTIVE OPENING SCREEN ============ -->
 <div id="introOverlay" class="intro-overlay panel-bg">
   <div class="relative z-10 text-center max-w-sm w-full">
@@ -168,16 +185,13 @@
     </div>
 
     <div class="intro-anim intro-anim-2 gold-border-strong rounded-3xl px-8 sm:px-10 py-9 sm:py-10 mb-9">
-      <div class="crown-icon flex justify-center mb-3">
-        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.4">
-          <path d="M3 8l4 3 5-6 5 6 4-3-2 10H5L3 8z"/>
-          <path d="M5 18h14" stroke-linecap="round"/>
-        </svg>
+      <div class="crown-icon flex justify-center mb-4">
+        <svg width="46" height="38" viewBox="0 0 120 100" fill="none" stroke="currentColor" stroke-width="2.5" class="text-gold"><use href="#toitime-mark"/></svg>
       </div>
-      <p class="font-serif italic text-3xl sm:text-4xl gold-text mb-2">ТойTime <span class="text-cream/70 not-italic text-2xl align-top">01</span></p>
-      <p class="letter-spacing-wide text-xs text-gold/70 uppercase mb-5">Новый формат праздника</p>
+      <p class="font-serif text-3xl sm:text-4xl gold-text mb-1 letter-spacing-wide">ТОЙ TIME</p>
+      <p class="letter-spacing-wide text-[10px] text-cream/50 uppercase mb-5">— Event Agency —</p>
       <div class="h-px w-16 bg-gold/50 mx-auto mb-5"></div>
-      <p class="font-display text-lg sm:text-xl text-cream/90">«Незнакомые люди»</p>
+      <p class="font-display italic text-lg sm:text-xl text-cream/90">«Незнакомые люди»</p>
       <p class="font-display text-base text-cream/60 mt-1">25 июля 2026 · Бишкек</p>
     </div>
 
@@ -205,23 +219,18 @@
 
   <div class="relative z-10 w-full max-w-2xl mx-auto flex flex-col items-center justify-center min-h-screen py-20">
 
-    <div class="hero-anim hero-anim-1 mb-8 sm:mb-12 flex items-center gap-3 sm:gap-4">
-      <div class="h-px flex-grow bg-gold/30"></div>
-      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.4" class="flex-shrink-0">
-        <path d="M3 8l4 3 5-6 5 6 4-3-2 10H5L3 8z"/>
-        <path d="M5 18h14" stroke-linecap="round"/>
-      </svg>
-      <div class="h-px flex-grow bg-gold/30"></div>
+    <div class="hero-anim hero-anim-1 mb-6 flex justify-center">
+      <svg width="72" height="60" viewBox="0 0 120 100" fill="none" stroke="currentColor" stroke-width="2" class="text-gold"><use href="#toitime-mark"/></svg>
     </div>
 
-    <p class="hero-anim hero-anim-2 letter-spacing-wide text-xs sm:text-sm text-gold/70 uppercase mb-6">Новый формат праздника в Кыргызстане</p>
+    <p class="hero-anim hero-anim-2 letter-spacing-wide text-xs sm:text-sm text-gold/70 uppercase mb-1">ТОЙ TIME</p>
+    <p class="hero-anim hero-anim-2 letter-spacing-wide text-[10px] text-cream/40 uppercase mb-8">— Event Agency —</p>
 
     <div class="hero-anim hero-anim-3 mb-8 sm:mb-12 gold-border-strong rounded-3xl px-8 sm:px-14 py-8 sm:py-12 relative">
-      <h1 class="font-serif text-5xl sm:text-6xl md:text-7xl gold-text leading-none mb-1">ТойTime</h1>
-      <p class="letter-spacing-wide text-sm text-cream/50 uppercase mb-4">выпуск 01</p>
+      <h1 class="font-serif text-4xl sm:text-5xl md:text-6xl gold-text leading-none mb-1">Незнакомые люди</h1>
+      <p class="letter-spacing-wide text-sm text-cream/50 uppercase mb-4">ТОЙ TIME · выпуск 01</p>
       <div class="h-px w-16 bg-gold/40 mx-auto mb-4"></div>
-      <p class="font-serif italic text-2xl sm:text-3xl text-cream">«Незнакомые люди»</p>
-      <p class="font-sans text-xs sm:text-sm text-gold/60 letter-spacing-wide uppercase mt-3">Самое обсуждаемое событие года</p>
+      <p class="font-sans text-xs sm:text-sm text-gold/60 letter-spacing-wide uppercase">Самое обсуждаемое событие года</p>
     </div>
 
     <p class="hero-anim hero-anim-4 font-display text-base sm:text-lg text-cream/75 leading-relaxed max-w-lg mb-12 sm:mb-14 px-2">
@@ -277,27 +286,27 @@
 
     <div class="grid grid-cols-2 sm:grid-cols-3 gap-5 sm:gap-6 reveal reveal-delay-1">
       <div class="card rounded-2xl px-4 py-6 flex flex-col items-center gap-3">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.4"><path d="M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6"/></svg>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#C4906A" stroke-width="1.4"><path d="M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6"/></svg>
         <span class="text-xs sm:text-sm text-cream/80 leading-snug">Красивый банкетный зал</span>
       </div>
       <div class="card rounded-2xl px-4 py-6 flex flex-col items-center gap-3">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.4"><path d="M9 18V5l12-2v13M9 18a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM21 16a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/></svg>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#C4906A" stroke-width="1.4"><path d="M9 18V5l12-2v13M9 18a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM21 16a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/></svg>
         <span class="text-xs sm:text-sm text-cream/80 leading-snug">Любимая музыка</span>
       </div>
       <div class="card rounded-2xl px-4 py-6 flex flex-col items-center gap-3">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.4"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6"/></svg>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#C4906A" stroke-width="1.4"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6"/></svg>
         <span class="text-xs sm:text-sm text-cream/80 leading-snug">Танцы до вечера</span>
       </div>
       <div class="card rounded-2xl px-4 py-6 flex flex-col items-center gap-3">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.4"><path d="M4 21 12 3l8 18M8 13h8"/></svg>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#C4906A" stroke-width="1.4"><path d="M4 21 12 3l8 18M8 13h8"/></svg>
         <span class="text-xs sm:text-sm text-cream/80 leading-snug">Конкурсы</span>
       </div>
       <div class="card rounded-2xl px-4 py-6 flex flex-col items-center gap-3">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.4"><path d="M20 12v9H4v-9M2 7h20v5H2V7zM12 7v14M12 7c-1.5-3-6-3-6 0s4.5 3 6 0zM12 7c1.5-3 6-3 6 0s-4.5 3-6 0z"/></svg>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#C4906A" stroke-width="1.4"><path d="M20 12v9H4v-9M2 7h20v5H2V7zM12 7v14M12 7c-1.5-3-6-3-6 0s4.5 3 6 0zM12 7c1.5-3 6-3 6 0s-4.5 3-6 0z"/></svg>
         <span class="text-xs sm:text-sm text-cream/80 leading-snug">Подарки</span>
       </div>
       <div class="card rounded-2xl px-4 py-6 flex flex-col items-center gap-3">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.4"><path d="M12 21s-7-4.35-9.5-8.8C1 8.6 2.7 5 6.2 5 8.4 5 10 6.3 12 8.4 14 6.3 15.6 5 17.8 5 21.3 5 23 8.6 21.5 12.2 19 16.65 12 21 12 21z"/></svg>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#C4906A" stroke-width="1.4"><path d="M12 21s-7-4.35-9.5-8.8C1 8.6 2.7 5 6.2 5 8.4 5 10 6.3 12 8.4 14 6.3 15.6 5 17.8 5 21.3 5 23 8.6 21.5 12.2 19 16.65 12 21 12 21z"/></svg>
         <span class="text-xs sm:text-sm text-cream/80 leading-snug">Яркие эмоции</span>
       </div>
     </div>
@@ -308,9 +317,9 @@
 <section class="relative py-24 sm:py-32 px-6">
   <div class="max-w-2xl mx-auto text-center reveal">
     <p class="letter-spacing-wide text-xs text-gold uppercase mb-4">Что такое</p>
-    <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl gold-text mb-8">ТойTime?</h2>
+    <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl gold-text mb-8">ТОЙ TIME?</h2>
     <p class="font-display text-lg sm:text-xl text-cream/80 leading-relaxed mb-10">
-      ТойTime — это новое развлекательное мероприятие, которое объединяет атмосферу настоящего
+      ТОЙ TIME — это новое развлекательное мероприятие, которое объединяет атмосферу настоящего
       кыргызского тоя с современным форматом вечеринки.
     </p>
     <div class="card rounded-2xl px-8 py-8 inline-block reveal reveal-delay-1">
@@ -378,27 +387,27 @@
     <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl text-cream mb-14">Для кого это мероприятие?</h2>
     <div class="grid grid-cols-2 sm:grid-cols-3 gap-5 sm:gap-6">
       <div class="card rounded-2xl px-4 py-7 flex flex-col items-center gap-3 reveal reveal-delay-1">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.4"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6"/></svg>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#C4906A" stroke-width="1.4"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6"/></svg>
         <span class="text-xs sm:text-sm text-cream/80">Молодежь</span>
       </div>
       <div class="card rounded-2xl px-4 py-7 flex flex-col items-center gap-3 reveal reveal-delay-1">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.4"><path d="M3 21h18M6 21V10l6-4 6 4v11M10 21v-5h4v5"/></svg>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#C4906A" stroke-width="1.4"><path d="M3 21h18M6 21V10l6-4 6 4v11M10 21v-5h4v5"/></svg>
         <span class="text-xs sm:text-sm text-cream/80">Предприниматели</span>
       </div>
       <div class="card rounded-2xl px-4 py-7 flex flex-col items-center gap-3 reveal reveal-delay-2">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.4"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="3.4"/><path d="M8 6l1.2-2h5.6L16 6"/></svg>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#C4906A" stroke-width="1.4"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="3.4"/><path d="M8 6l1.2-2h5.6L16 6"/></svg>
         <span class="text-xs sm:text-sm text-cream/80">Блогеры</span>
       </div>
       <div class="card rounded-2xl px-4 py-7 flex flex-col items-center gap-3 reveal reveal-delay-2">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.4"><path d="M22 10 12 5 2 10l10 5 10-5zM6 12v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"/></svg>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#C4906A" stroke-width="1.4"><path d="M22 10 12 5 2 10l10 5 10-5zM6 12v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"/></svg>
         <span class="text-xs sm:text-sm text-cream/80">Студенты</span>
       </div>
       <div class="card rounded-2xl px-4 py-7 flex flex-col items-center gap-3 reveal reveal-delay-3">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.4"><circle cx="8" cy="8" r="3"/><circle cx="16" cy="8" r="3"/><path d="M2 21c0-3.5 2.7-5.5 6-5.5s6 2 6 5.5M13.5 15.7c1-.5 2-.7 2.5-.7 3.3 0 6 2 6 5.5"/></svg>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#C4906A" stroke-width="1.4"><circle cx="8" cy="8" r="3"/><circle cx="16" cy="8" r="3"/><path d="M2 21c0-3.5 2.7-5.5 6-5.5s6 2 6 5.5M13.5 15.7c1-.5 2-.7 2.5-.7 3.3 0 6 2 6 5.5"/></svg>
         <span class="text-xs sm:text-sm text-cream/80">Семейные пары</span>
       </div>
       <div class="card rounded-2xl px-4 py-7 flex flex-col items-center gap-3 reveal reveal-delay-3">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.4"><path d="M12 21s-7-4.35-9.5-8.8C1 8.6 2.7 5 6.2 5 8.4 5 10 6.3 12 8.4 14 6.3 15.6 5 17.8 5 21.3 5 23 8.6 21.5 12.2 19 16.65 12 21 12 21z"/></svg>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#C4906A" stroke-width="1.4"><path d="M12 21s-7-4.35-9.5-8.8C1 8.6 2.7 5 6.2 5 8.4 5 10 6.3 12 8.4 14 6.3 15.6 5 17.8 5 21.3 5 23 8.6 21.5 12.2 19 16.65 12 21 12 21z"/></svg>
         <span class="text-xs sm:text-sm text-cream/80">Все, кто любит праздник</span>
       </div>
     </div>
@@ -431,27 +440,27 @@
     <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl text-cream mb-14">Что входит в билет?</h2>
     <div class="grid grid-cols-2 sm:grid-cols-3 gap-5 sm:gap-6">
       <div class="card rounded-2xl px-4 py-7 flex flex-col items-center gap-3 reveal reveal-delay-1">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.4"><path d="M2 8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v2a2 2 0 0 0 0 4v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-2a2 2 0 0 0 0-4V8z"/></svg>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#C4906A" stroke-width="1.4"><path d="M2 8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v2a2 2 0 0 0 0 4v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-2a2 2 0 0 0 0-4V8z"/></svg>
         <span class="text-xs sm:text-sm text-cream/80">Банкет</span>
       </div>
       <div class="card rounded-2xl px-4 py-7 flex flex-col items-center gap-3 reveal reveal-delay-1">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.4"><path d="M2 10 12 4l10 6-10 6-10-6z"/><path d="M6 12.5V17c0 1.5 3 3 6 3s6-1.5 6-3v-4.5"/></svg>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#C4906A" stroke-width="1.4"><path d="M2 10 12 4l10 6-10 6-10-6z"/><path d="M6 12.5V17c0 1.5 3 3 6 3s6-1.5 6-3v-4.5"/></svg>
         <span class="text-xs sm:text-sm text-cream/80">Шоу-программа</span>
       </div>
       <div class="card rounded-2xl px-4 py-7 flex flex-col items-center gap-3 reveal reveal-delay-2">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.4"><path d="M4 21 12 3l8 18M8 13h8"/></svg>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#C4906A" stroke-width="1.4"><path d="M4 21 12 3l8 18M8 13h8"/></svg>
         <span class="text-xs sm:text-sm text-cream/80">Участие в конкурсах</span>
       </div>
       <div class="card rounded-2xl px-4 py-7 flex flex-col items-center gap-3 reveal reveal-delay-2">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.4"><path d="M9 18V5l12-2v13M9 18a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM21 16a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/></svg>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#C4906A" stroke-width="1.4"><path d="M9 18V5l12-2v13M9 18a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM21 16a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/></svg>
         <span class="text-xs sm:text-sm text-cream/80">Музыкальная программа</span>
       </div>
       <div class="card rounded-2xl px-4 py-7 flex flex-col items-center gap-3 reveal reveal-delay-3">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.4"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="3.4"/><path d="M8 6l1.2-2h5.6L16 6"/></svg>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#C4906A" stroke-width="1.4"><rect x="3" y="6" width="18" height="14" rx="2"/><circle cx="12" cy="13" r="3.4"/><path d="M8 6l1.2-2h5.6L16 6"/></svg>
         <span class="text-xs sm:text-sm text-cream/80">Фото и видео</span>
       </div>
       <div class="card rounded-2xl px-4 py-7 flex flex-col items-center gap-3 reveal reveal-delay-3">
-        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.4"><path d="M12 21s-7-4.35-9.5-8.8C1 8.6 2.7 5 6.2 5 8.4 5 10 6.3 12 8.4 14 6.3 15.6 5 17.8 5 21.3 5 23 8.6 21.5 12.2 19 16.65 12 21 12 21z"/></svg>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#C4906A" stroke-width="1.4"><path d="M12 21s-7-4.35-9.5-8.8C1 8.6 2.7 5 6.2 5 8.4 5 10 6.3 12 8.4 14 6.3 15.6 5 17.8 5 21.3 5 23 8.6 21.5 12.2 19 16.65 12 21 12 21z"/></svg>
         <span class="text-xs sm:text-sm text-cream/80">Незабываемая атмосфера</span>
       </div>
     </div>
@@ -544,18 +553,17 @@
 <footer class="relative pt-24 sm:pt-32 pb-14 px-6 panel-bg text-cream">
   <div class="max-w-md mx-auto flex flex-col items-center text-center reveal">
     <div class="crown-icon mb-6">
-      <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="1.3">
-        <path d="M3 8l4 3 5-6 5 6 4-3-2 10H5L3 8z"/>
-        <path d="M5 18h14" stroke-linecap="round"/>
-      </svg>
+      <svg width="52" height="44" viewBox="0 0 120 100" fill="none" stroke="currentColor" stroke-width="2.2" class="text-gold"><use href="#toitime-mark"/></svg>
     </div>
-    <h2 class="font-serif text-3xl sm:text-4xl gold-text mb-3">ТойTime 01</h2>
+    <p class="letter-spacing-wide text-xs text-gold/70 uppercase mb-1">ТОЙ TIME</p>
+    <p class="letter-spacing-wide text-[10px] text-cream/40 uppercase mb-6">— Event Agency —</p>
+    <h2 class="font-serif text-2xl sm:text-3xl text-cream mb-3">«Незнакомые люди»</h2>
     <p class="font-display italic text-xl text-cream/85 mb-6">До встречи!</p>
     <div class="divider-line bg-gold/40 mx-auto mb-6"></div>
     <p class="font-display text-lg text-cream/70 max-w-sm">
       Мы создаём не просто мероприятие. Мы создаём место, куда хочется возвращаться снова и снова.
     </p>
-    <p class="mt-14 text-xs text-cream/40 letter-spacing-wide uppercase">ТойTime 01 · 25 июля 2026 · Bermet Palace, Бишкек</p>
+    <p class="mt-14 text-xs text-cream/40 letter-spacing-wide uppercase">ТОЙ TIME · Незнакомые люди · 25 июля 2026 · Bermet Palace, Бишкек</p>
   </div>
 </footer>
 
